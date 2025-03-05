@@ -7,7 +7,7 @@ class Solution(object):
         """
         n = len(nums)
         nums.sort()
-        closest_sum = 10**4
+        closest_sum = float('inf')
 
         for i in range(n-2):
             left = i+1
