@@ -30,6 +30,7 @@ class Solution(object):
 root = TreeNode(5)
 root.left = TreeNode(1)
 root.right = TreeNode(7)
+root.left.right = TreeNode(4)
 
 solution = Solution()
 
